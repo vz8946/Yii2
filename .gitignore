@@ -254,3 +254,4 @@ phpunit.phar
 # local phpunit config
 /phpunit.xml
 >>>>>>> dev_wf
+.idea/workspace.xml
