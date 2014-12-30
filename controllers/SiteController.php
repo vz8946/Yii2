@@ -107,7 +107,7 @@ class SiteController extends Controller
         if ($model->load(Yii::$app->request->post()) && $model->validate())
         {
             //
-            return $this->render('entry-cinfirm', ['model' => $model]);
+            return $this->render('entry-confirm', ['model' => $model]);
         } else {
             //
             return $this->render('entry', ['model' => $model]);
