@@ -8,7 +8,7 @@
 namespace app\models;
 use yii\base\Model;
 
-class EntryForm
+class EntryForm extends Model
 {
     public $name;
     public $email;
