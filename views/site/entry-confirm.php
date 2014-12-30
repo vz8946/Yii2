@@ -8,15 +8,10 @@
 
 <?php
 use yii\helpers\Html;
-use yii\widgets\ActiveForm;
 ?>
+<p>You have entered the fillowing informaton</p>
 
-<?php $form = ActiveForm::begin();?>
-
-<?= $form->field($model, 'name') ?>
-<?= $form->field($model, 'email') ?>
-<div class="form-group">
-    <?= Html::submitButton('Submit', ['class' => 'btn btn-primary']) ?>
-</div>
-
-<?php ActiveForm::end();?>
+<ul>
+    <li><label>Name</label>: <?= Html::encode($model->name) ?></li>
+    <li><label>Email</label>: <?= Html::encode($model->email) ?></li>
+</ul>
