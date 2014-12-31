@@ -106,7 +106,7 @@ class SiteController extends Controller
 
         if ($model->load(Yii::$app->request->post()) && $model->validate())
         {
-            //
+            //提交成功
             return $this->render('entry-confirm', ['model' => $model]);
         } else {
             //提交失败
