@@ -223,6 +223,7 @@ assets/*
 !assets/.gitignore
 runtime/*
 !runtime/.gitignore
+debug/*.data
 protected/runtime/*
 !protected/runtime/.gitignore
 protected/data/*.db
