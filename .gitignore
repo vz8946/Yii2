@@ -221,6 +221,8 @@ pip-log.txt
 #############
 assets/*
 !assets/.gitignore
+runtime/*
+!runtime/.gitignore
 protected/runtime/*
 !protected/runtime/.gitignore
 protected/data/*.db
