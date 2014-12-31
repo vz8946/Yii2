@@ -109,7 +109,7 @@ class SiteController extends Controller
             //
             return $this->render('entry-confirm', ['model' => $model]);
         } else {
-            //
+            //提交失败
             return $this->render('entry', ['model' => $model]);
         }
     }
