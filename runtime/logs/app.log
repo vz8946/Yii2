@@ -43650,3 +43650,124 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1419474223.6094
     'REQUEST_TIME' => 1419474223
 ]
+2015-01-06 09:05:00 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: country/index' in G:\heihei\Git\yii2\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 G:\heihei\Git\yii2\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#1 G:\heihei\Git\yii2\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('country/index', Array)
+#2 G:\heihei\Git\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 G:\heihei\Git\yii2\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Unable to resolve the request: country/index' in G:\heihei\Git\yii2\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 G:\heihei\Git\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 G:\heihei\Git\yii2\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2015-01-06 09:05:00 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'country/index'
+]
+
+$_COOKIE = [
+    '_csrf' => 'a541aba18719c0f6d24dcce21dbea2f3b7bc241c100560ffcd0417bf3cbad792s:32:\"sz0J8t66i8YJR1zzf3EMmKN4kwuBxwmg\";'
+    'PHPSESSID' => 'jjbr2b6dnck4ak8nj540l3qa33'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4'
+    'HTTP_COOKIE' => '_csrf=a541aba18719c0f6d24dcce21dbea2f3b7bc241c100560ffcd0417bf3cbad792s%3A32%3A%22sz0J8t66i8YJR1zzf3EMmKN4kwuBxwmg%22%3B; PHPSESSID=jjbr2b6dnck4ak8nj540l3qa33'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\wamp\\bin\\php\\php5.4.12;C:\\Users\\weifengli\\AppData\\Local\\Google\\Chrome\\Application;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\SlikSvn\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files (x86)\\Git\\cmd;'
+    'SystemRoot' => 'C:\\windows'
+    'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.4 (Win64) PHP/5.4.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'G:/heihei/Git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/heihei/Git'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'G:/heihei/Git/yii2/web/index.php'
+    'REMOTE_PORT' => '60346'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=country/index'
+    'REQUEST_URI' => '/yii2/web/index.php?r=country/index'
+    'SCRIPT_NAME' => '/yii2/web/index.php'
+    'PHP_SELF' => '/yii2/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1420535100.705
+    'REQUEST_TIME' => 1420535100
+]
+2015-01-06 09:06:24 [127.0.0.1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Setting unknown property: yii\data\Pagination::tatalCount' in G:\heihei\Git\yii2\vendor\yiisoft\yii2\base\Object.php:161
+Stack trace:
+#0 G:\heihei\Git\yii2\vendor\yiisoft\yii2\BaseYii.php(518): yii\base\Object->__set('tatalCount', '10')
+#1 G:\heihei\Git\yii2\vendor\yiisoft\yii2\base\Object.php(105): yii\BaseYii::configure(Object(yii\data\Pagination), Array)
+#2 G:\heihei\Git\yii2\controllers\CountryController.php(23): yii\base\Object->__construct(Array)
+#3 [internal function]: app\controllers\CountryController->actionIndex()
+#4 G:\heihei\Git\yii2\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 G:\heihei\Git\yii2\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 G:\heihei\Git\yii2\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#7 G:\heihei\Git\yii2\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('country/index', Array)
+#8 G:\heihei\Git\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 G:\heihei\Git\yii2\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2015-01-06 09:06:24 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'country/index'
+]
+
+$_COOKIE = [
+    '_csrf' => 'a541aba18719c0f6d24dcce21dbea2f3b7bc241c100560ffcd0417bf3cbad792s:32:\"sz0J8t66i8YJR1zzf3EMmKN4kwuBxwmg\";'
+    'PHPSESSID' => 'jjbr2b6dnck4ak8nj540l3qa33'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4'
+    'HTTP_COOKIE' => '_csrf=a541aba18719c0f6d24dcce21dbea2f3b7bc241c100560ffcd0417bf3cbad792s%3A32%3A%22sz0J8t66i8YJR1zzf3EMmKN4kwuBxwmg%22%3B; PHPSESSID=jjbr2b6dnck4ak8nj540l3qa33'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\wamp\\bin\\php\\php5.4.12;C:\\Users\\weifengli\\AppData\\Local\\Google\\Chrome\\Application;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\SlikSvn\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files (x86)\\Git\\cmd;'
+    'SystemRoot' => 'C:\\windows'
+    'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.4 (Win64) PHP/5.4.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'G:/heihei/Git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/heihei/Git'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'G:/heihei/Git/yii2/web/index.php'
+    'REMOTE_PORT' => '60916'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=country/index'
+    'REQUEST_URI' => '/yii2/web/index.php?r=country/index'
+    'SCRIPT_NAME' => '/yii2/web/index.php'
+    'PHP_SELF' => '/yii2/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1420535184.474
+    'REQUEST_TIME' => 1420535184
+]
